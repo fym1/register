@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="百度帐号是登录所有百度系产品的通行证，登录后还可以在帐户管理页管理/修改您的个人信息，包括修改密码、绑定手机、身份认证等">
+    <title>注册百度帐号</title>
+    <link rel="stylesheet" href="./register.css"/>
+</head>
+<body>
+    <div class="content">
+        <div class="baidu">
+            <img src="https://passport.baidu.com/static/passpc-account/img/baidu.png" />
+        </div>
+        <div class="mod-new-reg-text">
+            <h3>用科技</h3>
+            <p>让复杂的世界更简单</p>
+        </div>
+        <div class="mod-new-reg-footer">
+            <span class="mod-new-reg-help">
+                <a class="mode-new-reg-help-text" href="https://passport.baidu.com/v2/?ucenterfeedback#reg" target="_blank">帮助中心</a>
+                <span class="mod-new-reg-line"></span>
+                <a class="mod-new-reg-service" href="https://zhiqiu.baidu.com/imcswebchat/roulette/in?id=48721&token=1nnbs7op4ocsr68143oamrjq9c4eoin2&domainID=pass&type=2"></a>
+            </span>
+            <span class="mod-new-reg-copyright">2020&nbsp;&copy;Baidu</span>
+        </div>
+        <div  class="mod-new-reg-content">
+            <div class="new-reg-guide-login">
+                <h3>欢迎注册</h3>
+                <p>已有帐号？<span id="login_btn"><a href="/">登录</a></span></p>
+            </div>
+            <div class="reg-content">
+                <form class="new-reg-v5">
+                    <div class="biao">
+                        <div id="a">设置后不可更改，中英文均可，最长14个英文或7个汉字</div>
+                        <p>用户名</p><input type="text" placeholder="请设置用户名" id="username" autofocus/>
+                        <img id="aa" src="https://passport.baidu.com/static/passpc-account/img/setpwd-success-2x.png"/>
+                    </div>
+                    <div id="username-validate"></div>
+                    <div class="biao">
+                        <p>手机号</p><input type="text" placeholder="可用于登录和找回密码" id="phonenumber"/>
+                        <img id="bb" src="https://passport.baidu.com/static/passpc-account/img/setpwd-success-2x.png"/>
+                    </div>
+                    <div id="phonenumber-validate"></div>
+                    <div class="biao">
+                        <div id="b">
+                            <span id="dui1">&nbsp&nbsp&nbsp</span><span id="yao1">长度为8~14个字符</span>
+                            <br>
+                            <span id="dui2">&nbsp&nbsp&nbsp</span><span id="yao2">字母/数字以及标点符号至少包含2种</span>
+                            <br>
+                            <span id="dui3">&nbsp&nbsp&nbsp</span><span id="yao3">不允许有空格、中文</span>
+                        </div>
+                        <p>密码</p><input type="password" placeholder="请设置登录密码" id="pwd"/>
+                        <img src="http://bpic.588ku.com/element_origin_min_pic/01/50/72/255745604e0498c.jpg" id="eye"/>
+                        <img id="cc" src="https://passport.baidu.com/static/passpc-account/img/setpwd-success-2x.png"/>
+                    </div>
+                    <div id="pwd-validate"></div>
+                    <div class="biao1">
+                        <p>验证码</p><input class="yanzheng" type="text" placeholder="请输入验证码" id="yanzheng"/>
+                        <!-- <div id="yanzheng-button">获取验证码</div> -->
+                        <input id="yanzheng-button" type="button" value="获取验证码">
+                    </div>
+                    <div id="yanzheng-validate"></div>
+                    <!-- <input id="register" type="submit" value="注册"/> -->
+                </form>
+            </div>
+            <button class="register" id="register" disabled>注册</button>
+            <div class="agree">
+                <input type="checkbox" class="dui"/>
+                <p>阅读并接受<a href="https://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a>及<a href="http://privacy.baidu.com/mdetail?id=288">《百度隐私权保护声明》</a></p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+    <script src="./register.js"></script>
+</body>
+</html>
