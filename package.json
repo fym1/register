@@ -1,0 +1,26 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "register.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fym1/register.git"
+  },
+  "keywords": [],
+  "author": "fym",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fym1/register/issues"
+  },
+  "homepage": "https://github.com/fym1/register#readme",
+  "devDependencies": {
+    "grunt": ">=0.4.5",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
+}
