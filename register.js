@@ -66,7 +66,7 @@ $(function(){
         if($phonenumber.val() == ''){
             $('#phonenumber-validate').html('请您输入手机号')
         }
-        if(!(validate('#username') && validate('#phonenumber') && validate('#pwd') || $username.val() == '' || $phonenumber.val() == '' || $pwd.val() == '')){
+        if(!(validate('#username') && validate('#phonenumber') && validate('#pwd')) || $username.val() == '' || $phonenumber.val() == '' || $pwd.val() == ''){
             setTimeout(function(){
                 $('#yanzheng-validate').html('请求超时，请稍后再试')
             },10000)
